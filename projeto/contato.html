@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+    <h1>Entre em contato</h1>
+    </header>
+    <main>
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Cadastro</legend>  
+                <label for="nome">Nome</label>
+                <input type="" name="nome" placeholder="Digite o seu nome:" autocomplete="on" required/>
+                <br><br>
+                
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Digite o seu email:" required/>
+                <br><br>
+
+                <label for="dt_nasc">Data de nascimento</label>
+                <input type="date" name="dt_nasc" required/>
+                <br><br>
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Login</legend>
+                <label for="usuario">Usuário</label>
+                <input type="text" name="usuario" placeholder="Digite o seu usuário:" required/>
+                <br><br>
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="Digite a sua senha:" autocomplete="off" required/>
+                <br>
+
+                 </fieldset>
+                 <br>   
+
+                <fieldset>
+                    <legend>Endereço</legend>
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" placeholder="Logradouro" size="30" required/>
+                <br><br>
+
+                <label for="bairro">Bairro</label>  
+                <input type="text" name="bairro" placeholder="Digite o seu bairro:" required/>
+                <br><br>
+
+                <label for="cidade">Cidade</label>
+                <select name="cidade">
+                    <option></option>
+                    <option>Passo Fundo</option>
+                    <option>Carazinho</option>
+                    <option>Marau</option>
+                    <option>Espumoso</option>      
+                </select>         
+                <br><br>
+
+                <label for="estado">Estado</label>
+                <select name="estado">Estado
+                    <option></option>
+                    <option selected>RS</option>
+                    <option>SC</option>
+                    <option>PR</option>
+                    <option>SP</option>
+                </select>
+                <br><br>
+
+                <label for="numero">Número</label>
+                <input type="text" name="numero" placeholder="Número" size="8" required/>
+                <br><br>
+
+                <label for="cep">CEP</label>
+                <input type =text name="cep" placeholder="CEP" size="8" required/>
+                <br><br>
+
+            </fieldset>
+                <br>
+
+                <input type="submit" value="Enviar"/>
+            </form>
+        </article>
+    </main>
+    <footer>Site desenvolvido por Alunos do Itec UPF</footer>    
+</body>
+</html>
