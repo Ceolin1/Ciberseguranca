@@ -2,8 +2,8 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: beige;
-    color: #222;
+    background-color: #222;
+    color: beige;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    background-color: #f0ead6;
-    color: #222;
+    background-color: #222;
+    color: beige;
     padding: 20px;
     margin: 20px 20px 0 20px;
     border-radius: 10px 10px 0 0;
@@ -38,7 +38,7 @@ header {
     font-size: 2.2em;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #222;
+    color: beige;
 }
 
 .top-nav ul {
@@ -56,7 +56,7 @@ header {
 
 .top-nav a {
     text-decoration: none;
-    color: #222;
+    color: beige;
     font-weight: bold;
     padding: 8px 15px;
     border-radius: 5px;
@@ -72,97 +72,71 @@ main {
     max-width: 1200px;
     width: calc(100% - 40px);
     margin: 0 20px 20px 20px;
-    background-color: #f9f5e7;
+    background-color: #222;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     padding: 30px;
     box-sizing: border-box;
-    color: #222;
+    color: beige;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-form {
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    max-width: 100%;
+}
+
+.card {
+    background-color: #383838;
+    border: 2px solid #181818;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    min-width: 280px;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-
-fieldset {
-    border: 2px solid #222;
-    border-radius: 8px;
-    padding: 20px;
-    background-color: #f0ead6;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-legend {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #222;
-    padding: 0 10px;
-    background-color: #f0ead6;
-    border: 1px solid #222;
-    border-radius: 5px;
-    margin-left: -10px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #444;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="date"],
-input[type="password"],
-select {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #333;
+    align-items: center;
     box-sizing: border-box;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="date"]:focus,
-input[type="password"]:focus,
-select:focus {
-    border-color: #222;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #181818;
+    margin-bottom: 15px;
 }
 
-input[type="submit"] {
-    background-color: #222;
-    color: #f0ead6;
-    padding: 12px 25px;
-    border: 2px solid #222;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 1.1em;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-    align-self: flex-start;
+.conteudo-card h1 {
+    font-size: 1.6em;
+    color: #181818;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
-input[type="submit"]:hover {
-    background-color: #555;
-    border-color: #555;
+.conteudo-card p {
+    font-size: 0.95em;
+    color: beige;
+    margin-bottom: 10px;
 }
 
 footer {
     text-align: center;
     padding: 15px 0;
     margin-top: 20px;
-    color: #222;
-    background-color: beige;
+    color: beige;
+    background-color: #222;
     max-width: 1200px;
     width: calc(100% - 40px);
     margin-left: auto;
