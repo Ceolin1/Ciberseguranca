@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartilha de Segurança da Informação</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link id="linktema" rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -13,6 +13,12 @@
             <h1 class="logo">Sua Cartilha Digital de Segurança da Informação</h1>
             <nav class="top-nav">
                 <ul>
+                   <button id="acessibilidade"><img src="./img/acessibilidade.png" alt=""></button>
+
+                    <label class="switch">
+                        <input id="tema" onchange="tema()" checked="false" type="checkbox">
+                        <span class="slider"></span>
+                    </label>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="sobre.html">Sobre nós</a></li>
                     <li><a href="contato.html">Contato</a></li>
@@ -50,6 +56,6 @@
     <footer>
         <p>Site desenvolvido por alunos do Itec UPF.</p>
     </footer>
-
+    <script src="./JavaScript/main.js"></script>
 </body>
 </html>
