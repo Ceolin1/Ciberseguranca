@@ -5,6 +5,28 @@ body {
     background-color: beige;
     color: #222;
     line-height: 1.6;
+    
+}
+body .top-nav ul{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+body .top-nav li {
+    white-space: nowrap;
+}
+body.acess{
+    font-size: 20px;
+}
+body.acess .top-nav ul {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+body.acess .top-nav li {
+    white-space: nowrap;
+}
+body.acess #acessibilidade img{
+    width: 30px !important;
+    height: 30px !important;
 }
 
 header {
